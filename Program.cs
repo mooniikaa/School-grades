@@ -35,7 +35,7 @@ namespace Numbers
             history.History3 = double.Parse(Console.ReadLine());
             history.average();
             double sum = (match.All + english.All + biology.All + chemistry.All + history.All) / 5;
-            Console.WriteLine("Great Point Average " + Math.Round(sum, 2));
+            Console.WriteLine("Grade Point Average " + Math.Round(sum, 2));
         }        
         }
     }
