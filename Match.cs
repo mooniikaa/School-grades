@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Numbers
 {
-     class Match 
+     class Match : Average
     {
         private double match1;
         private double match2;
